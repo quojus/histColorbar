@@ -59,7 +59,7 @@ def histColorbar(ax, data, binBreit=20, label=None, cmap=cm.viridis, breite_his_
     colors = cmap(norm(bin_edges[:-1]))
     
     # Aufteilung des Axes-Objekts für
-        divider = make_axes_locatable(ax)
+    divider = make_axes_locatable(ax)
 
     # Erstellen der zusätzlichen Axes für Histogramm und Colorbar
     if len(breite_his_bar) == 2 and all(isinstance(x, (int, float)) for x in breite_his_bar):
