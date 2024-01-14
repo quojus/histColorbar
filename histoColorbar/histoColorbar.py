@@ -74,10 +74,10 @@ def histoColorbar(ax, data, binBreit=20, label=None, cmap=cm.viridis, breite_his
     ax1.barh(bin_edges[:-1], -hist_data, height=np.diff(bin_edges), color=colors, edgecolor='none', linewidth=0)
     verstz = ((data.min() - data.max()) / len(bin_edges)) * 0.5
     ax1.set_ylim(data.min() + verstz, data.max() + verstz)
-    ax1.invert_xaxis()
+    #ax1.invert_xaxis()
     ax1.set_xticks([])
     ax1.set_yticks([])
-    ax1.invert_yaxis()
+    #ax1.invert_yaxis()
 
     # Umrandungen der Achse ax1 entfernen
     ax1.spines['top'].set_visible(False)
