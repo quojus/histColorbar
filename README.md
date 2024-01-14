@@ -1,9 +1,9 @@
-# histColorbar
+# histoColorbar
     Erstellt ein Histogramm mit einer angehängten Farbskala (Colorbar) in einem Matplotlib-Achsenobjekt.
 
 # Histogramm mit Farbskala in Matplotlib
 
-Dieses Projekt beinhaltet die `histColorbar`-Funktion, welche ein Histogramm mit einer angehängten Farbskala (Colorbar) in einem Matplotlib-Achsenobjekt erstellt. Die Funktion ist nützlich für die visuelle Datenanalyse und ermöglicht eine intuitive Darstellung der Datenverteilung.
+Dieses Projekt beinhaltet die `histoColorbar`-Funktion, welche ein Histogramm mit einer angehängten Farbskala (Colorbar) in einem Matplotlib-Achsenobjekt erstellt. Die Funktion ist nützlich für die visuelle Datenanalyse und ermöglicht eine intuitive Darstellung der Datenverteilung.
 
 ## Funktionsbeschreibung
 
@@ -30,7 +30,7 @@ data = np.random.normal(size=1000)
 fig, ax = plt.subplots()
 
 # Verwenden der histColorbar-Funktion
-histColorbar(ax, data)
+histoColorbar(ax, data)
 
 # Anzeigen des Plots
 plt.show()
@@ -38,6 +38,6 @@ plt.show()
 ## Installation über pip
 
 ```bash
-pip install git+https://github.com/quojus/histColorbar.git
+pip install git+https://github.com/quojus/histoColorbar.git
 
 ```
