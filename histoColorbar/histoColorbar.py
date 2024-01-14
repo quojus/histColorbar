@@ -37,7 +37,7 @@ def histoColorbar(ax, data, binBreit=20, label=None, cmap=cm.viridis, breite_his
         raise ValueError("label muss ein String sein, falls angegeben")
 
     # Überprüfung des cmap-Arguments
-    if not isinstance(cmap, (str, cm.Colormap)):
+    if not isinstance(cmap, (str, cm._colormaps)):
         raise ValueError("cmap muss ein String oder ein Matplotlib Colormap-Objekt sein")
 
     # Überprüfung des breite_his_bar-Arguments
