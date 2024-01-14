@@ -6,7 +6,7 @@ setup(
     packages=find_packages(),
     description='Histogramm mit Farbskala in Matplotlib',
     long_description=open('README.md').read(),
-    url='https://github.com/quojus/histColorbar',
+    url='https://github.com/quojus/histoColorbar',
     author='Falk',
     install_requires=[
         'numpy',
