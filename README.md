@@ -25,14 +25,14 @@ from histColorbar import histColorbar  # Angenommen, die Funktion befindet sich 
 ```python
 from histoColorbar import histoColorbar
 
-# Daten für das Histogramm
-data = np.random.normal(size=1000)
+data = np.random.random((10, 10))
 
-# Erstellen einer Matplotlib-Figur und eines Achsenobjekts
 fig, ax = plt.subplots()
 
+im = ax.imshow(data, cmap='hot', interpolation='nearest')
+plt.tight_layout()
 # Verwenden der histColorbar-Funktion
-histoColorbar(ax, data)
+histoColorbar(ax, data, cmap='hot')
 
 # Anzeigen des Plots
 plt.show()
