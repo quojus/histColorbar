@@ -23,6 +23,8 @@ import numpy as np
 from histColorbar import histColorbar  # Angenommen, die Funktion befindet sich in der Datei histColorbar.py
 
 ```python
+from histoColorbar import histoColorbar
+
 # Daten für das Histogramm
 data = np.random.normal(size=1000)
 
