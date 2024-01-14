@@ -4,7 +4,7 @@ from matplotlib.colors import Normalize
 from matplotlib import cm
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 
-def histColorbar(ax, data, binBreit=20, label=None, cmap=cm.viridis, breite_his_bar=(5, 2)):
+def histoColorbar(ax, data, binBreit=20, label=None, cmap=cm.viridis, breite_his_bar=(5, 2)):
     """
     Erstellt ein Histogramm mit einer angehängten Farbskala (Colorbar) in einem Matplotlib-Achsenobjekt.
 
