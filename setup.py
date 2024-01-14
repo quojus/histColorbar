@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='histoColorbar',
-    version='0.1.2',
+    version='0.1.3',
     packages=find_packages(),
     description='Histogramm mit Farbskala in Matplotlib',
     long_description=open('README.md').read(),
