@@ -37,6 +37,9 @@ histoColorbar(ax, data)
 # Anzeigen des Plots
 plt.show()
 ```
+
+![Alt-Text für das Bild](Beispielbild_1.png)
+
 ## Installation über pip
 
 ```bash
