@@ -75,6 +75,7 @@ def histoColorbar(ax, data, binBreit=20, label=None, cmap=cm.viridis, breite_his
     verstz = ((data.min() - data.max()) / len(bin_edges)) * 0.5
     ax1.set_ylim(data.min() + verstz, data.max() + verstz)
     ax1.invert_yaxis()
+    ax1.invert_xaxis()
     ax1.set_xticks([])
     ax1.set_yticks([])
 
