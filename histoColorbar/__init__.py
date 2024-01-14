@@ -1,2 +1,2 @@
-from .histoColorbar import histoColorbar
+from .histoColorbar.histoColorbar import histoColorbar
 
